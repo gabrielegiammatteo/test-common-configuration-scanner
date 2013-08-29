@@ -41,7 +41,7 @@ public class DefaultScanner implements ClasspathScanner {
 	 * Creates an instance over a given collection of URLs.
 	 * @param urls the urls
 	 */
-	DefaultScanner(Collection<URL> urls) {
+	public DefaultScanner(Collection<URL> urls) {
 
 		if (urls == null)
 			throw new IllegalArgumentException("no urls specified");

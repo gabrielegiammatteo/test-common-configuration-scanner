@@ -1,5 +1,8 @@
 <ReleaseNotes>
-	<Changeset component="${build.finalName}"  date="2013-1-27">
+	<Changeset component="common-configuration-scanner-1.0.0"  date="2013-1-27">
 		<Change>First Release</Change>
+	</Changeset>
+	<Changeset component="${build.finalName}"  date="2013-8-29">
+		<Change>DefaultScanner can be invoked with non-default constructor</Change>
 	</Changeset>
 </ReleaseNotes>
