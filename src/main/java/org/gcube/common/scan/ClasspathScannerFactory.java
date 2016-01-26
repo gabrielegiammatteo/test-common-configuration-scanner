@@ -20,8 +20,7 @@ public class ClasspathScannerFactory {
 	 * @return the scanner
 	 */
 	public synchronized static ClasspathScanner scanner() {
-		if (scanner==null)
-			scanner = new DefaultScanner();
+		scanner = new DefaultScanner();
 		return scanner;
 	}
 	
@@ -31,8 +30,7 @@ public class ClasspathScannerFactory {
 	 * @return the scanner
 	 */
 	public synchronized static ClasspathScanner scanner(Collection<URL> urls) {
-		if (scanner==null)
-			scanner = new DefaultScanner(urls);
+		scanner = new DefaultScanner(urls);
 		return scanner;
 	}
 	

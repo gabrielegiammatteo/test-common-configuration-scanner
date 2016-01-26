@@ -42,7 +42,7 @@ public class DefaultScanner implements ClasspathScanner {
 	 * @param urls the urls
 	 */
 	public DefaultScanner(Collection<URL> urls) {
-
+		
 		if (urls == null)
 			throw new IllegalArgumentException("no urls specified");
 
